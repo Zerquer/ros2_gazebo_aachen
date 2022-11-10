@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <model name="Tivoli Map">
+    <static>true</static>
+    <link name="link">
+      <collision name="collision">
+        <pose>244 -644 4 0 0 -1.57</pose>
+        <geometry>
+          <mesh>
+            <uri>model://tivoli/surf_dae/surf.dae</uri>
+            <scale>50 50 50</scale>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="visual">
+        <pose>244 -644 4 0 0 -1.57</pose>
+        <geometry>
+          <mesh>
+            <uri>model://tivoli/surf_dae/surf.dae</uri>
+            <scale>50 50 50</scale>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+  </model>
+</sdf>
