@@ -14,7 +14,7 @@ from launch_ros.actions import Node
 def generate_launch_description():
     use_sim_time = LaunchConfiguration('use_sim_time', default='True')
     world_file_name = 'soers' + '.model'
-    world = os.path.join(get_package_share_directory('aachen_map'),
+    world = os.path.join(get_package_share_directory('ros2_gazebo_aachen'),
                          'worlds', world_file_name)
     pkg_gazebo_ros = get_package_share_directory('gazebo_ros')
 
